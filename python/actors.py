@@ -10,7 +10,7 @@ class Player():
         self.prev_action = None
         self.step_size = step_size
         
-        self.partcile= np.np.zeros((num_particles,2)).astype('int')
+        self.partcile= np.zeros((num_particles,2)).astype('int')
         
         self.info = None
 
